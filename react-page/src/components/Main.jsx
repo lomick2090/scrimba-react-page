@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
+import icon from '../backgroundIcon.svg'
 
 export default function Main() {
     return (
@@ -12,6 +13,7 @@ export default function Main() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            <img className='backgroundicon' src={icon}></img>
         </div>
     )
 }

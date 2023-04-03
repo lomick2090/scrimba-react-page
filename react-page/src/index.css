@@ -3,6 +3,7 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0px;
+    background-color: #33373E;
 }
 
 .Nav {
@@ -29,7 +30,7 @@ body {
 
 .Main {
     margin-top: 0px;
-    background-color: #33373E;
+    
     color: white;
     padding: 10%;
 }
@@ -58,4 +59,12 @@ ul li::before {
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.backgroundicon {
+    position: absolute;
+    width: 263px;
+    height: 263px;
+    right: 218px;
+    top: 198px;
 }
