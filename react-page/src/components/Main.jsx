@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
-import icon from '../backgroundIcon.svg'
+import icon from '../reactIcon.png'
 
-export default function Main() {
+export default function Main(props) {
     return (
-        <div className="Main">
+        <div className={`Main ${((props.darkMode) ? '' : 'light')}`}>
             <h1>Fun Facts about React</h1>
             <ul className='list'>
                 <li>Was first released in 2013</li>
